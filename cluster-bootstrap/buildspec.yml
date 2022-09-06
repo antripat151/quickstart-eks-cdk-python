@@ -6,7 +6,9 @@ phases:
   install:
     runtime-versions:
       python: 3.9
-      nodejs: 16
+      nodejs: 14
+    commands:
+      - n 16
   pre_build:
     commands:
       - cd cluster-bootstrap
